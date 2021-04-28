@@ -5,11 +5,11 @@
 
 ## Summary:
 
-1. Introduction
-2. Usage
-   2.1. Data formatting for the App
-   2.2. Command line instructions
-3. Credits
+1. Introduction;
+1. Usage;
+   1. Data formatting for the App;
+   1. Command line instructions;
+1. Credits;
 
 
 ## 1. INTRODUCTION
