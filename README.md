@@ -1,9 +1,9 @@
 
 
-IRPF Report App
+# IRPF Report App
 
 
-Summary:
+## Summary:
 
 1. Introduction
 2. Usage
@@ -12,7 +12,7 @@ Summary:
 3. Credits
 
 
-1. INTRODUCTION
+## 1. INTRODUCTION
 
 IRPF Report App was designed to help in the filling of the annual tax report in Brazil. Specifically the 
 requirements related to portfolios of stocks, reits and ETFs owned in Brazil and United States. 
@@ -21,20 +21,22 @@ also calculated. Specifics of how the data must be fed to the App can be found b
 
 This is a Web App based on Streamlit. 
 
-2. USAGE
+## 2. USAGE
 
-2.1. Data Formatting for the App
+### 2.1. Data Formatting for the App
 
 The data in question are the orders of buy and sell as well as corporate events. The data must be loaded 
 to the App in csv files. Multiples files are accepted at once.
 
 The columns of the csv files for the Brazillian portfolio must be (in English):
 
-Asset / Order / Date / Quantity / Price of Order R$
+Asset | Order | Date | Quantity | Price of Order R$
+------|-------|------|----------|------------------
 
 For the US portfolio they must be (in English):
 
-Asset / Order / Date / Quantity / Price of Order US$
+Asset | Order | Date | Quantity | Price of Order US$
+------|-------|------|----------|-------------------
 
 In all cases, the date must be informed in the format DD/MM/YY.
 
@@ -60,24 +62,26 @@ The Order column also accepts the corporate events. The only possbile values for
  
 The csv file containing the remittance events must have the following columns:
 
-Date / Value in R$
+Date | Value in R$
+---- | -----------
 
 The date must again be informed in the format DD/MM/YY.
 
 The csv files containing the exchange rates for USDBRL must have the following columns:
 
-Date / Type / Buy / Sell
+Date | Type | Buy | Sell
+---- | ---- | --- | ----
 
 The exchange rates must be obained from the Central Bank of Brazil website: https://www.bcb.gov.br/estabilidadefinanceira/historicocotacoes
  
-2.2. Command-line Instructions
+### 2.2. Command-line Instructions
 
 Provided you have a virtual environment setup with all libraries listed at the requirements.txt file, 
 this Web App must be run following the usual streamlit procedure:
 
 $ streamlit run app.py
 
-3. CREDITS
+## 3. CREDITS
 
 This Web App was created by using the [streamlit-multiapps](https://github.com/upraneelnihar/streamlit-multiapps)
 framework developed by [Praneel Nihar](https://medium.com/@u.praneel.nihar).
