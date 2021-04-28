@@ -1,8 +1,7 @@
-===================================================================================================================
 
-						IRPF Report App
 
-===================================================================================================================
+IRPF Report App
+
 
 Summary:
 
@@ -11,7 +10,7 @@ Summary:
    2.1. Data formatting for the App
    2.2. Command line instructions
 3. Credits
--------------------------------------------------------------------------------------------------------------------
+
 
 1. INTRODUCTION
 
@@ -21,7 +20,6 @@ Unrealized gains (losses) in the appreciation (depreciation) of money held in th
 also calculated. Specifics of how the data must be fed to the App can be found below.
 
 This is a Web App based on Streamlit. 
-
 
 2. USAGE
 
@@ -78,7 +76,6 @@ Provided you have a virtual environment setup with all libraries listed at the r
 this Web App must be run following the usual streamlit procedure:
 
 $ streamlit run app.py
-
 
 3. CREDITS
 
